@@ -18,8 +18,6 @@ working `oc` command line environment connected to your cluster already:
 
 `$ oc new-app centos/httpd-24-centos7~https://github.com/sclorg/httpd-ex`
 
-`$ oc new-app centos/httpd-24-centos7~https://github.com/Uemura-c/httpd-ex`
-
 You can also deploy the sample template for the application:
 
 `$ oc new-app -f https://raw.githubusercontent.com/sclorg/httpd-ex/master/openshift/templates/httpd.json`
